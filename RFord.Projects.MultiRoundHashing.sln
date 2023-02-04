@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RFord.Projects.MultiRoundHashing.Tests", "RFord.Projects.MultiRoundHashing.Tests\RFord.Projects.MultiRoundHashing.Tests.csproj", "{333CF2E7-04D8-4891-A540-6E2D48158F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFord.Projects.MultiRoundHashing.Core", "RFord.Projects.MultiRoundHashing.Core\RFord.Projects.MultiRoundHashing.Core.csproj", "{A4FBCA8C-7712-494D-8C0A-2D5C37090EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFord.Projects.MultiRoundHashing.Console", "RFord.Projects.MultiRoundHashing.Console\RFord.Projects.MultiRoundHashing.Console.csproj", "{8AC5406A-0109-49B7-B6C3-A9BDFA447F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333CF2E7-04D8-4891-A540-6E2D48158F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333CF2E7-04D8-4891-A540-6E2D48158F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333CF2E7-04D8-4891-A540-6E2D48158F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333CF2E7-04D8-4891-A540-6E2D48158F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FBCA8C-7712-494D-8C0A-2D5C37090EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FBCA8C-7712-494D-8C0A-2D5C37090EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FBCA8C-7712-494D-8C0A-2D5C37090EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FBCA8C-7712-494D-8C0A-2D5C37090EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC5406A-0109-49B7-B6C3-A9BDFA447F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC5406A-0109-49B7-B6C3-A9BDFA447F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC5406A-0109-49B7-B6C3-A9BDFA447F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC5406A-0109-49B7-B6C3-A9BDFA447F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB718BAD-4D67-478F-AB72-96F9E326D5AB}
+	EndGlobalSection
+EndGlobal
