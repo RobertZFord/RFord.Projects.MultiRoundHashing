@@ -79,7 +79,7 @@ namespace RFord.Projects.MultiRoundHashing.Console
             // specify how many rounds of the hash to perform
 
             IPrompt<int> roundsPrompt = new TextPrompt<int>("How many rounds?")
-                .Validate(i => i > 0 && i <= 100_000_000, "Please specify a value between 1 and 10,000,000.")
+                .Validate(i => i > 0 && i <= 100_000_000, "Please specify a value between 1 and 100,000,000.")
                 ;
 
             int roundCount = AnsiConsole.Prompt(roundsPrompt);
