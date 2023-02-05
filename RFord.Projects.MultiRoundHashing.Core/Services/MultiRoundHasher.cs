@@ -2,7 +2,7 @@
 
 namespace RFord.Projects.MultiRoundHashing.Core.Services
 {
-    public class MultiRoundHasher : IMultiRoundHasher
+    internal class MultiRoundHasher : IMultiRoundHasher
     {
         public byte[] ComputeHash(Stream source, HashAlgorithm hash, int roundCount, Delegate? onIncrement = default)
         {
